@@ -32,7 +32,11 @@ session_start();
         echo "<p>Videogioco con punteggio massimo: <strong>$topGame</strong> con $maxScore punti</p>";
     }
     ?>
+    <center>
     <br>
     <a href="../index.php">Torna alla pagina di inserimento</a>
+    <br>
+    <a href="reset.php">Reset dei punteggi</a>
+    </center>
 </body>
 </html>
